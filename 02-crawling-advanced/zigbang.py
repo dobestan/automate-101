@@ -18,3 +18,6 @@ for room_element in room_elements:
     info = room_element.find_element_by_css_selector('p.i-info').get_attribute('innerHTML')
     text = room_element.find_element_by_css_selector('p.i-txt').get_attribute('innerHTML')
     print((price, floor, info, text))
+
+
+driver.quit()
