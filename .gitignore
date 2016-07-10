@@ -58,3 +58,6 @@ target/
 
 # IPython Notebook
 .ipynb_checkpoints
+
+# Autoenv
+.env
